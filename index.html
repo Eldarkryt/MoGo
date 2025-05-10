@@ -4,80 +4,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <header>
-        <a href="./index.html">MoGo</a>
-        <nav>
-            <ul>
-                <il><a href="">ABOUT</a></il>
-                <il><a href="">SERVISE</a></il>
-                <il><a href="">WORK</a></il>
-                <il><a href="">BLOG</a></il>
-                <il><a href="">CONTACT</a></il>
+    <header class="container header">
+        <a href="./index.html" class="logo">MoGo</a>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="" class="nav-link">ABOUT</a></li>
+                <li class="nav-item"><a href="" class="nav-link">SERVISE</a></li>
+                <li class="nav-item"><a href="" class="nav-link">WORK</a></li>
+                <li class="nav-item"><a href="" class="nav-link">BLOG</a></li>
+                <li class="nav-item"><a href="" class="nav-link">CONTACT</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <h1>MoGo IT company</h1>
-    <section>
-        <h3>We work with</h3>
-        <h2>Amazing</h2>
-        <ul>
-            <li>
-                <h4>photograpy</h4>
+        <h1 class="is-hidden">MoGo IT company</h1>
+    <section class="container services" >
+        <h3 class="section-pre-title">We work with</h3>
+        <h2 class="section-title">Amazing Services</h2>
+        <ul  class="servise-list">
+             <li class="servise-item">
+                <h4 class="servise-title">photograpy</h4>
                 <p>
-                Lorem ipsum dolor sit amet.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
                 </p>
             </li>
-            <li>
-            <h4>photograpy</h4>
+             <li class="servise-item">
+                <h4 class="servise-title">photograpy</h4>
                 <p>
-                Lorem ipsum dolor sit amet.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
                 </p>
-                <li>
             </li>
-            <h4>photograpy</h4>
+            <li class="servise-item">
+                <h4 class="servise-title">photograpy</h4>
                 <p>
-                Lorem ipsum dolor sit amet.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
                 </p>
-                <li>
             </li>
-            <h4>photograpy</h4>
+            <li class="servise-item">
+            <h4 class="servise-title">photograpy</h4>
                 <p>
-                    Lorem ipsum dolor sit amet.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                </p>
+                </li>
+            <li class="servise-item">
+            <h4 class="servise-title">photograpy</h4>
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                </p>
+                
+            </li>
+            <li class="servise-item">
+            <h4 class="servise-title">photograpy</h4>
+                <p>
+                    Lorem ippsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
                 </p>
             </li>
         </ul>
     </section>
-    <section>
-        <h3>Who we are</h3>
-        <h2>Meet our team</h2>
-        <p>Lorem ipsum dolor sit amet.</p>
-<ul>
-    <li>
-        <img src="images/first-man.png" alt="Matthew Dix">
-        <h4>Matthew Dix</h4>
-        <p>Graphic Design</p>
+    <section class="container team">
+        <h3 class="team-title">Who we are</h3>
+        <h2 class="team-pre-title">Meet our team</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita possimus error magnam facilis earum nobis eveniet quisquam quae reprehenderit, praesentium sit ullam, hic, a aspernatur obcaecati velit impedit at ut.</p>
+<ul class="team-list">
+    <li class="team-item">
+        <img src="images/first-man.png" alt="Matthew Dix" class="team-png">
+        <h4 class="team-name">Matthew Dix</h4>
+        <p class="profession">Graphic Design</p>
     </li>
-    <li>
-        <img src="images/second-man.png" alt="Christopher Campbell">
-        <h4>Christopher Campbell</h4>
-        <p>Branding/UX design</p>
+    <li class="team-item">
+        <img src="images/second-man.png" alt="Christopher Campbell" class="team-png">
+        <h4 class="team-name">Christopher Campbell</h4>
+        <p class="profession">Branding/UX design</p>
     </li>
-    <li>
-        <img src="images/third-man.png" alt="Michael Fertig ">
-        <h4>Michael Fertig </h4>
-        <p>Developer</p>
+    <li class="team-item">
+        <img src="images/third-man.png" alt="Michael Fertig " class="team-png">
+        <h4 class="team-name">Michael Fertig </h4>
+        <p class="profession">Developer</p>
     </li>
         </ul>
     </section>
     </main>
-    <footer>
-        <p>2016 MoGo free PSD template by <a href="index.html">Laaqiq</a></p>
-        <form action="">
-            <input type="email" placeholder="Your email">
-    <button type="submit">subscribe</button>
+    <footer class="footer">
+        <div class="container footer">
+        <p class="footer-text">2016 MoGo free PSD template by <a href="index.html">Laaqiq</a></p>
+        <form action="" class="footer-form">
+            <input type="email" placeholder="Your email" class="footer-input">
+    <button type="submit" class="footer-btn">subscribe</button>
         </form>
     </footer>
 </body>
